@@ -1,0 +1,12 @@
+{application,chat_ranch,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{chat_ranch_app,[]}},
+              {applications,[kernel,stdlib,ranch]},
+              {env,[]},
+              {modules,[chat_client_test,chat_client_test_multi,
+                        chat_ranch_app,chat_ranch_sup,chat_server_test,
+                        gateway_app,gateway_sup,pressure]},
+              {licenses,["Apache 2.0"]},
+              {links,[]}]}.
